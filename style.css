@@ -1,0 +1,132 @@
+body{
+    background-color: #10103a;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    background-color: #10103a;
+    align-items: center;
+    padding: 20px 100px;
+}
+.home img{
+    cursor: pointer;
+}
+/* .manubar{
+    text-decoration: none;
+    font-weight: bold;
+    
+} */
+.manubar a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+}
+.manubar a:hover{
+    background-color: brown;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+/* home section */
+.homepage{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.homepage-section1{
+    text-align: left;
+    padding-left: 100px;
+}
+.homepage-section1 h1{
+   font-size: 100px;
+   color: white;
+   font-weight: 800;
+   /* padding: ; */
+   margin: 0px;
+   padding: 10px 0px;
+}
+.homepage-section1 h3{
+   font-size: 80px;
+   color: white;
+   font-weight:bold;
+   margin: 0px;
+   padding: 10px 0px;
+}
+.homepage-section1 p{
+   font-size: 20px;
+   color: white;
+   font-weight: bold;
+   margin: 0px;
+   padding: 10px 0px;
+}
+
+/* home section */
+.training-section{
+    width: 100%;
+    /* background-color: rgb(164, 164, 164); */
+    background-size: cover;
+    /* height: 700px; */
+    padding-bottom: 50px;
+}
+.training-section h1{
+    text-align: center;
+    font-family: sans-serif;
+
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tarainig-item{
+    flex-basis: 30%;
+    background-color: #298ae7;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 10px 3px white;
+    padding: 20px 0px;
+    text-align: center;
+    border-radius:60px 0px 60px 0px;
+}
+.tarainig-item img{
+    /* border: 1px solid red; */
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.tarainig-item h3{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+.tarainig-item p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding: 0px 50px;
+    padding-bottom: 10px;
+}
+.tarainig-item button{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 6px;
+}
+.tarainig-item button:hover{
+    background-color: rgb(235, 0, 43);
+    border: none;
+    color: white;
+    padding: 6px;
+    border-radius: 20px;
+}
+.training-section h1{
+    padding-top: 20px;
+    color: white;
+    font-size: 40px;
+}
+/* end card section */
